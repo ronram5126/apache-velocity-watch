@@ -1,0 +1,17 @@
+{
+  "name": "velocity-watch",
+  "version": "1.0.0",
+  "description": "Watch and Compiles Velocity files",
+  "main": "index.js",
+  "author": "Ronit Ramdam BK <ron.ram5126@gmail.com>",
+  "scripts": {
+    "compile": "node ./lib/compile.js",
+    "watch": "node ./lib/watch.js"
+  },
+  "license": "GNU",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "velocityjs": "^2.0.3"
+  }
+}
